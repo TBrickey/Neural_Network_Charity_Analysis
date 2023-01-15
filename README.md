@@ -14,15 +14,15 @@ With machine learning and neural networks, we’re using the features in the pro
 
 1. Data Preprocessing
 
-	‘IS_SUCCESSFUL’ is the target for the model.
-	'APPLICATION_TYPE', & 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', &'SPECIAL_CONSIDERATIONS' are all considered to be features for the model.
-	‘EIN’ & ‘NAME’ neither targets nor features and should be removed from the input data.
+- ‘IS_SUCCESSFUL’ is the target for the model.
+- 'APPLICATION_TYPE', & 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'INCOME_AMT', &'SPECIAL_CONSIDERATIONS' are all considered to be features for the model.
+- ‘EIN’ & ‘NAME’ neither targets nor features and should be removed from the input data.
 
 2. Compiling, Training, and Evaluating the Model
 
-	70 Neurons & 40 Neurons with 2 hidden layers and 1 outer layer using relu, relu and sigmoid respectively.
-	I was unable to achieve the target model performance.
-	I thought I was on the right path until I realized I was switching my loss numbers with my accuracy.
+- 70 Neurons & 40 Neurons with 2 hidden layers and 1 outer layer using relu, relu and sigmoid respectively.
+- I was unable to achieve the target model performance.
+- I thought I was on the right path until I realized I was switching my loss numbers with my accuracy.
 
 ### Summary
 
